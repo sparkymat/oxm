@@ -14,3 +14,13 @@ func Home() string {
 
 	return path.Join(user.HomeDir, ".oxm")
 }
+
+// Usr returns the /usr folder for oxm
+func Usr() string {
+	return path.Join(Home(), "usr")
+}
+
+// Src returns the /usr/src folder for oxm
+func Src() string {
+	return path.Join(Home(), "usr", "src")
+}

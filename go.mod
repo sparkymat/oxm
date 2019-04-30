@@ -3,6 +3,7 @@ module github.com/sparkymat/oxm
 go 1.12
 
 require (
+	github.com/hashicorp/go-getter v1.2.0
 	github.com/kr/pretty v0.1.0
 	github.com/kr/pty v1.1.4 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
